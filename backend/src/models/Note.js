@@ -1,0 +1,43 @@
+const { Schema, model } = require("mongoose");
+
+const noteSchema = new Schema({
+    level: String,
+    skill: String,
+    extension: String,
+    ref: String,
+    reading: String,
+    reading_link: String,
+    ref1: String,
+    listening: String,
+    listening_link: String,
+    ref2: String,
+    writing: String,
+    writing_link: String,
+    ref3: String,
+    speaking: String,
+    speaking_link: String,
+    ref4: String,
+    grammar: String,
+    grammar_link: String,
+    ref5: String,
+    vocabulary: String,
+    vocabulary_link: String,
+    ref6: String,
+    pronunciation: String,
+    pronunciation_link: String,
+    ref7: String,
+    TF_century_skills: String,
+    TF_century_skills_link: String,
+    ref8: String,
+    para_el_aprendizaje: String,
+    para_el_aprendizaje_link: String,
+    ref9: String,
+    del_aprendizaje: String,
+    del_aprendizaje_link: String,
+    ref10: String,
+    examenes_estandarizados: String,
+    examenes_estandarizados_link: String,
+
+});
+
+module.exports = model("Note", noteSchema);

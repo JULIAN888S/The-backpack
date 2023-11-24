@@ -1,0 +1,40 @@
+.Dba{
+  justify-content: center;
+  background-color: var(--color0);
+}
+
+.container-cards{
+  display: flex;    
+  height: 90%;
+  margin-bottom: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  background-color: var(--color3);          
+}
+
+.card{
+  position: relative;
+  scroll-snap-align: center;
+  width: 80%;
+  min-width: 300px;
+  margin: 50px 20px 80px;
+  padding: 5%;
+  border-radius: 15px;          
+  background-color: var(--color0);
+  box-shadow: var(--shadow1);
+}
+
+.resource-card img{
+  width: 45vw;  
+  max-width: 80%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  margin-left: 10%;
+}
+
